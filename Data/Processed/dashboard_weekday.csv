@@ -1,0 +1,8 @@
+Day_of_week,avg_usage_kwh,avg_co2_kg,avg_lagging_pf,avg_leading_pf,avg_co2_per_kwh,avg_reactive_power_percent
+Friday,33.2,14.34,79.85,90.82,22.8,126.96
+Monday,33.14,14.32,79.62,90.65,21.98,126.81
+Saturday,15.92,6.14,82.23,74.35,12.49,218.08
+Sunday,7.55,2.05,82.17,64.02,4.99,271.79
+Thursday,35.11,15.29,79.56,91.82,23.63,122.24
+Tuesday,34.43,14.59,80.08,90.84,22.47,125.27
+Wednesday,32.25,13.89,80.56,87.95,21.33,141.99

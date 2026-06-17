@@ -1,0 +1,4 @@
+Load_Type,avg_usage_kwh,avg_co2_kg,avg_lagging_pf,avg_leading_pf,avg_co2_per_kwh,avg_reactive_power_percent
+Light_Load,8.63,2.55,69.68,85.41,4.5,191.47
+Maximum_Load,59.27,26.9,91.01,95.73,41.76,64.92
+Medium_Load,38.45,16.71,93.06,73.91,27.28,179.09
