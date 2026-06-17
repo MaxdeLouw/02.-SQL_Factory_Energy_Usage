@@ -65,10 +65,12 @@ GROUP BY strftime('%H', date)
 ORDER BY Hour_of_day
 ;
 
--- Emissions by load type
+-- Emissions and power metrics by load type
 SELECT
     load_type,
-    Round(AVG("CO2(kg)"), 4) AS Avg_CO2_Emissions
+    Round(AVG("CO2(kg)"), 4) AS Avg_CO2_Emissions,
+    Round(AVG(Lagging_Current_Power_Factor), 4) AS Avg_Lagging_Factor,
+    Round(AVG("Leading_Current_Power_Factor"), 4) AS Avg_Leading_Factor
 FROM energy_usage
 GROUP BY load_type
 ORDER BY Avg_CO2_Emissions DESC
