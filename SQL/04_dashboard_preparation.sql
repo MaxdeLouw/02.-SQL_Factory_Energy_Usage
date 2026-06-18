@@ -59,7 +59,7 @@ FROM energy_usage_clean
 Group by load_type
 ;
 
---KPI's
+--Dashboard KPI's
 DROP TABLE IF EXISTS KPIs;
 
 CREATE TABLE KPIs AS
