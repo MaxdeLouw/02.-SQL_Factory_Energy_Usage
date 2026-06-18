@@ -1,6 +1,6 @@
 # 02.SQL_Factory_Energy_Usage
 
-Project overview
+**Project overview**
 
 This project analyzes the energy consumption of a steel manufacturing facility during 2018.
 
@@ -8,7 +8,7 @@ The dataset contains measurements recorded every 15 minutes, including active en
 
 The main focus of the project was to use SQL for data preparation and analysis before presenting the main findings in an interactive Power BI dashboard.
 
-Project goals
+**Project goals**
 
 The analysis was built around the following questions:
 
@@ -20,7 +20,7 @@ The analysis was built around the following questions:
 - During which operating periods does electrical efficiency appear to decrease?
 
 
-Tools used
+**Tools used**
 Python
 Pandas
 SQLite
@@ -29,22 +29,7 @@ Power BI
 Visual Studio Code
 DAX
 
-The dataset contains 35,040 observations recorded at 15-minute intervals throughout 2018.
-
-The main variables include:
-
-- Energy usage in kWh
-- Lagging reactive energy in kVArh
-- Leading reactive energy in kVArh
-- Lagging power factor
-- Leading power factor
-- CO₂ emissions
-- Day of the week
-- Time of day
-- Operating load type
-
-
-Workflow
+**Workflow**
 1. Imported the raw dataset using Pandas.
 2. Converted the date column into a consistent datetime format.
 3. Loaded the data into a SQLite database.
@@ -55,31 +40,31 @@ Workflow
 7. Exported the cleaned table for use in Power BI.
 8. Built an interactive dashboard to present the main findings.
 
-Key findings
--The facility consumed approximately 959.64 MWh of energy during the recorded period.
--Total CO₂ emissions were approximately 403.81 tonnes.
--The overall CO₂ intensity was approximately 0.42 kg CO₂ per kWh.
--Average lagging power factor was approximately 80.6%.
--Energy consumption is highest during weekday operating hours, especially between 09:00 and 18:00.
--Thursday has the highest average daytime energy consumption, while Sunday has the lowest.
--Maximum-load periods account for the largest share of total energy use.
--Energy demand drops considerably during weekends and overnight periods.
--Lagging power factor generally improves during the main operating hours and decreases during lower-demand periods.
--Leading reactive energy becomes more noticeable during certain low-load and transitional periods, which may indicate capacitive overcompensation.
+**Key findings**
+- The facility consumed approximately 959.64 MWh of energy during the recorded period.
+- Total CO₂ emissions were approximately 403.81 tonnes.
+- The overall CO₂ intensity was approximately 0.42 kg CO₂ per kWh.
+- Average lagging power factor was approximately 80.6%.
+- Energy consumption is highest during weekday operating hours, especially between 09:00 and 18:00.
+- Thursday has the highest average daytime energy consumption, while Sunday has the lowest.
+- Maximum-load periods account for the largest share of total energy use.
+- Energy demand drops considerably during weekends and overnight periods.
+- Lagging power factor generally improves during the main operating hours and decreases during lower-demand periods.
+- Leading reactive energy becomes more noticeable during certain low-load and transitional periods, which may indicate capacitive overcompensation.
 
 **Dashboard**
 
 The dashboard contains:
 
--Total energy consumption
--Total CO₂ emissions
--Average lagging power factor
--CO₂ intensity
--Monthly energy consumption and power factor
--A day-and-time energy consumption heatmap
--Energy consumption by load type
+- Total energy consumption
+- Total CO₂ emissions
+- Average lagging power factor
+- CO₂ intensity
+- Monthly energy consumption and power factor
+- A day-and-time energy consumption heatmap
+- Energy consumption by load type
 
-![alt text]("Dashboard/Dashboard_Screenshot.jpg")
+![Dashboard Screenshot](Dashboard/Dashboard_Screenshot.jpg)
 
 
 
