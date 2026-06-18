@@ -1,4 +1,4 @@
-# 02.-SQL_Factory_Energy_Usage
+# 02.SQL_Factory_Energy_Usage
 
 Project overview
 
@@ -56,43 +56,33 @@ Workflow
 8. Built an interactive dashboard to present the main findings.
 
 Key findings
-The facility consumed approximately 959.64 MWh of energy during the recorded period.
-Total CO₂ emissions were approximately 403.81 tonnes.
-The overall CO₂ intensity was approximately 0.42 kg CO₂ per kWh.
-Average lagging power factor was approximately 80.6%.
-Energy consumption is highest during weekday operating hours, especially between 09:00 and 18:00.
-Thursday has the highest average daytime energy consumption, while Sunday has the lowest.
-Maximum-load periods account for the largest share of total energy use.
-Energy demand drops considerably during weekends and overnight periods.
-Lagging power factor generally improves during the main operating hours and decreases during lower-demand periods.
-Leading reactive energy becomes more noticeable during certain low-load and transitional periods, which may indicate capacitive overcompensation.
-Dashboard
+-The facility consumed approximately 959.64 MWh of energy during the recorded period.
+-Total CO₂ emissions were approximately 403.81 tonnes.
+-The overall CO₂ intensity was approximately 0.42 kg CO₂ per kWh.
+-Average lagging power factor was approximately 80.6%.
+-Energy consumption is highest during weekday operating hours, especially between 09:00 and 18:00.
+-Thursday has the highest average daytime energy consumption, while Sunday has the lowest.
+-Maximum-load periods account for the largest share of total energy use.
+-Energy demand drops considerably during weekends and overnight periods.
+-Lagging power factor generally improves during the main operating hours and decreases during lower-demand periods.
+-Leading reactive energy becomes more noticeable during certain low-load and transitional periods, which may indicate capacitive overcompensation.
+
+**Dashboard**
 
 The dashboard contains:
 
-Total energy consumption
-Total CO₂ emissions
-Average lagging power factor
-CO₂ intensity
-Monthly energy consumption and power factor
-A day-and-time energy consumption heatmap
-Energy consumption by load type
+-Total energy consumption
+-Total CO₂ emissions
+-Average lagging power factor
+-CO₂ intensity
+-Monthly energy consumption and power factor
+-A day-and-time energy consumption heatmap
+-Energy consumption by load type
 
-The visuals are interactive and can be used to filter the rest of the dashboard.
-
-Repository structure
-factory-energy-analysis/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-├── sql/
-├── images/
-├── README.md
-├── requirements.txt
-└── .gitignore
+![alt text]("Dashboard/Dashboard_Screenshot.jpg")
 
 
-Data source
 
+**Data source
+**
 Steel Industry Energy Consumption Dataset, available through the UCI Machine Learning Repository.
