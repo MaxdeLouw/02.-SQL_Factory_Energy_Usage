@@ -21,13 +21,13 @@ The analysis was built around the following questions:
 
 
 **Tools used**
-Python
-Pandas
-SQLite
-SQL
-Power BI
-Visual Studio Code
-DAX
+- Python
+- Pandas
+- SQLite
+- SQL
+- Power BI
+- Visual Studio Code
+- DAX
 
 **Workflow**
 1. Imported the raw dataset using Pandas.
